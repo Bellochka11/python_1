@@ -13,18 +13,18 @@
 # Каждое число – среднесуточная температура в
 # соответствующий день. Температуры – целые числа и лежат в
 # диапазоне от –50 до 50
-# Input: 6 -> -20 30 -40 50 10 -10 Output: 2
+# Input: 6 -> -20 30 -40 50 10 -10 Output: 2; 2 числа подряд положительные
 
 count, countMax = 0, 0
-day = int(input("Enter day: "))
+day = int(input("Enter day: ")) #всего дней
 for i in range(1, day+1):
-        temp = int(input())
-        if temp > 0:
-            count += 1
+        temp = int(input()) #температура в каждом дне
+        if temp > 0: ## если температура больше нуля
+            count += 1 ## кол-во дней с положительной температурой
         else:
             if  countMax < count:
-                countMax = count
-            count = 0
+                countMax = count #???
+            count = 0 ##??
 if countMax < count:
     countMax = count
 print(countMax)

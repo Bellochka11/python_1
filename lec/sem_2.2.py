@@ -3,6 +3,16 @@
 # Input: 5
 # Output: 6
 
+# a = int(input("Введите число: "))
+# pred = 0 
+# next = 1
+# n = 3
+# while next <= a:
+#     pred = next
+#     next = pred + next
+#     n+=1
+# print(n)
+
 
 a = int(input("Введите число: "))
 if a == 0:
