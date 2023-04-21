@@ -7,7 +7,7 @@ print(type(t)) # узнали тип данных кортеж
 
 v = [1,8,9] # создали список
 print(v)
-print(type(v))
+print(type(v))# узнали тип данных список
 v = tuple(v) #преобразовали список в кортеж
 print(v)
 print(type(v))
