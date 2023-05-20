@@ -9,7 +9,7 @@
 # рекурсии
 
 def fib(n):
-    if n in [1,2]:
+    if n in [1,2]: # если n в 1 или 2
         return 1
     return fib(n-1) + fib(n-2)
 

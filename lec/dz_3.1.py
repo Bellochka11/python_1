@@ -19,4 +19,4 @@ print(array, end = ",") #разделитель запятая
 
 x = int(input("\n Введите число x: "))
 
-print(array.count(x))
+print(array.count(x)) # каунт это кол-во этого числа в нашем случае x

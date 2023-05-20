@@ -6,8 +6,7 @@ test_list = {"V": "S001", "V": "S002", "VI": "S001", "VI": "S005", "VII": " S005
 #res = list(set(val for dic in test_list for val in dic.values()))
 a = set() # сет это уникальные значения создали пустое множество
 
-for value in test_list.values(): #идем значениями из test_list значений .values как множество. перебираем только значения!!!!! ключи нет
+for value in test_list.values(): #идем ТОЛЬКО значениями из test_list с помощью values. КЛЮЧИ НАС НЕ ИНТЕРЕСУЮТ!!  перебираем только значения!!!!! ключи нет 
     a.add(value) # засовываем в а уникальные значения из тест листа
-
 
 print(a)

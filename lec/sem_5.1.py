@@ -24,3 +24,5 @@ print(degree(num1, num2, c))
 # a= int(input())
 # b= int(input())
 # print(my_power(a,b))
+
+

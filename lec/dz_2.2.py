@@ -6,8 +6,8 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 
-x = int(input())  #1 задуманное число
-y = int(input())  #2 задуманное число
+x = int(input())  #1 сумма задуманных чисел
+y = int(input())  #2 произведение задуманных чисел
 for i in range(x):
     for j in range(y):
         if x == i + j and y == i * j:
@@ -17,7 +17,6 @@ for i in range(x):
 # x = int(input())  #1 задуманное число
 # y = int(input())  #2 задуманное число
 # for i in range(x):
-#     for j in range(y):
-#         if x == i + j and y == i * j:
-#             print(i, j)
+#     if i * ( x - i) == y:
+#         print(i, x - i)
 

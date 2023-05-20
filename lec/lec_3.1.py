@@ -14,7 +14,7 @@ def sum_numbers(n):
     sum = 0
     for i in range(1, n + 1):
         sum += i
-    return sum
+    return sum # если программа видит ретерн то завершает работу функции
 
 print(sum_numbers(5))
 

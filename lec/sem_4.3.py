@@ -22,12 +22,12 @@ while (number != 0):
 print(f"Максимальный элемент: {maxNumber}")
 
 
-number = maxNumber = int(input("Введите цифру: "))
+# number = maxNumber = int(input("Введите цифру: "))
 
-while (number != 0):
-#if (number > maxNumber):
-# maxNumber = number
-    maxNumber = number if number > maxNumber else maxNumber
-    number = int(input("Введите цифру: "))
+# while (number != 0):
+# #if (number > maxNumber):
+# # maxNumber = number
+#     maxNumber = number if number > maxNumber else maxNumber
+#     number = int(input("Введите цифру: "))
 
-print(f"Максимальный элемент: {maxNumber}")
+# print(f"Максимальный элемент: {maxNumber}")

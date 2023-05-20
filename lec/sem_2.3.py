@@ -23,8 +23,8 @@ for i in range(1, day+1):
             count += 1 ## кол-во дней с положительной температурой
         else:
             if  countMax < count:
-                countMax = count #???
-            count = 0 ##??
-if countMax < count:
+                countMax = count ##свап
+            count = 0 ## обнуляем каунт
+if countMax < count: ## на случай если все числа положит, или в конце положит
     countMax = count
 print(countMax)

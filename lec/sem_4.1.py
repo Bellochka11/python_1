@@ -11,8 +11,8 @@ for syn in symbols:
     if syn in dict1:
         dict1[syn] +=1
     else:
-        dict1[syn] = 0
-    if dict1[syn] == 0:
+        dict1[syn] = 0 # присваиваем ключ 0 к значению
+    if dict1[syn] == 0: # если ключ равен 0 то выводим его без ничего
         print(syn)
     else:
         print(f"{syn}_{dict1[syn]}")
