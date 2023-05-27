@@ -21,7 +21,8 @@ for el_2 in range(a_1):
     mass_1.append(random.randint(-10, 10))
 print(mass_1)
 
-for i in range(1, len(mass_1)-1): # бежим по масс1 с 2 до предпоследнего
+for i in range(1, len(mass_1)-1): # бежим по масс1 с 2 до предпоследнего (с 1 до предпоследнего т.к. бежим по индексам)
     if mass_1[i-1] < mass_1[i] > mass_1[i + 1]: # если прошлый и следующий меньше текущего то каунт +1
         count += 1
 print(count)
+

@@ -4,14 +4,14 @@
 # 1 1 2 1 1 4
 from random import randint
 
-n1_set = list(randint(1, 5) for i in range(int(input('Введите кол-во элементов первого множества: '))))
+n1_set = list(randint(1, 5) for i in range(int(input('Введите кол-во элементов первого множества: ')))) # заполняем список рандомными числами от 1 до 5
 print(n1_set)
 def change (list):
-    min_num = min(list)
-    max_num = max(list)
+    min_num = min(list) # нашла минимум
+    max_num = max(list) # нашла максимум
     for i in range(len(list)):
-        if list[i] == max_num:
-            list[i] = min_num
+        if list[i] == max_num: # если элемент из списка равен максимальному 
+            list[i] = min_num # меняем его на минимальный элемент
     return list
 
 print(change(n1_set))

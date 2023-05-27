@@ -19,17 +19,18 @@
 # Делители n == m И делители m == n
 
 
-def deliteli(num):
-    count = 0
+def deliteli(num): # здесь мы находим сумму делителий чисел
+    count = 0 # например число 10. мы идем с 1 до 9, 10 не включаем: 10 делится на 1+2+5=8 8 - сумма делителей числа 10
     for i in range(1, num - 1):
         if num % i == 0:
-            count += i
+            count += i # сюда записываем и складываем все числа, на которые делится число 10, не включая его самого т.е. от 1 до 9
     return count
 
+print(deliteli(284))
 
 k = int(input("Kakni "))
 
 for i in range(k - 1):
     j = deliteli(i)
-    if deliteli(j) == i & i > j:
+    if deliteli(j) == i & i > j: #i > j чтобы одинаковые пары не попадались
         print(j, i)
