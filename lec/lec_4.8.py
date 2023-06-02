@@ -3,7 +3,7 @@ data = open('file.txt', 'a') # здесь указываем режим, в ко
 data.writelines(colors) # разделителей не будет
 data.close()
 
-with open('file.txt', 'w') as data:
+with open('file.txt', 'w') as data: # первый параметр это текстовый файл второй режим это режим. data это название к файлу
     data.write('line 1\n')
     data.write('line 2\n') # значения перезаписываются
 
